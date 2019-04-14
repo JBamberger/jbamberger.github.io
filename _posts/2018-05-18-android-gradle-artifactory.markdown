@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Android + Gradle + Artifactory"
-date:   2019-04-13 22:58:40 +0200
+date:   2018-05-18 21:44:00 +0200
 categories: android gradle artifactory update
 ---
 
