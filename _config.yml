@@ -16,8 +16,7 @@
 title: JBamberger.de
 email: mail@jbamberger.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Website of Jannik Bamberger. The site contains information about me and
-  things I found interesting or useful.
+  Website of Jannik Bamberger.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jbamberger.de" # the base hostname & protocol for your site, e.g. http://example.com
 
