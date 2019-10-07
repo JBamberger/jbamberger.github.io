@@ -23,6 +23,8 @@ url: "https://www.jbamberger.de" # the base hostname & protocol for your site, e
 # twitter_username: JannikBamberger
 github_username:  JBamberger
 
+show_excerpts: true
+
 timezone: Europe/Berlin
 encoding: utf-8
 
