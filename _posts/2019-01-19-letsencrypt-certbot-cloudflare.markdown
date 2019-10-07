@@ -27,7 +27,7 @@ which we can use to install the Certbot plugin
 sudo pip install certbot-dns-cloudflare
 ```
 
-## Set up the cerdentials file
+## Set up the credentials file
 
 Create a new file `cloudflare.ini` in `~/.secrets/certbot/cloudflare.ini` and write your Cloudflare account credentials down as follows:
 
