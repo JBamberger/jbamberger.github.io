@@ -35,8 +35,8 @@ deactivate # quit the virtual environment
 
 ## Configure Nginx
 
-Edit your nginx configuration (most likely in `/etc/nginx/nginx.conf`) and add
-the following server:
+Edit your nginx configuration (most likely in `/etc/nginx/conf.d/nginx.conf`)
+and add the following server:
 
 ```nginx
 server {
