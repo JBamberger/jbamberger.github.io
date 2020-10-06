@@ -2,7 +2,8 @@
 layout: post
 title:  "Android + Gradle + Artifactory"
 date:   2018-05-18 21:44:00 +0200
-categories: android gradle artifactory update
+categories: Development
+tags: Android Gradle Artifactory
 ---
 
 This page shows how to integrate gradle builds of android libraries with a private maven repository hosted on artifactory.

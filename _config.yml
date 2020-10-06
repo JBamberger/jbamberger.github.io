@@ -30,6 +30,8 @@ encoding: utf-8
 
 header_pages:
   - projects.md
+  - categories.html
+  - tags.html
   - about.md
 
 # Build settings

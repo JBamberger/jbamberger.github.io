@@ -2,7 +2,8 @@
 layout: post
 title:  "Website with Flask, Gunicorn and Nginx on CentOS"
 date:   2018-01-22 13:35:00 +0200
-categories: python web flask gunicorn nginx
+categories: Development
+tags: Python Flask Gunicorn Nginx
 ---
 
 This page contains info on the setup of a Flask application with Gunicorn as app

@@ -2,7 +2,8 @@
 layout: post
 title:  "Springboot deployment with nginx"
 date:   2018-12-29 16:05:00 +0200
-categories: java springboot gradle nginx centos systemd
+categories: Development
+tags: Java Springboot Gradle Nginx CentOS systemd
 ---
 
 This post will show how to configure a CentOS server for deploying a Springboot

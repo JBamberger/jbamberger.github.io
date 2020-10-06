@@ -2,7 +2,8 @@
 layout: post
 title:  "LetsEncrypt with Certbot and Cloudflare"
 date:   2019-01-19 22:13:00 +0200
-categories: lets-encrypt certbot cloudflare
+categories: Development
+tags: Lets-Encrypt Certbot Cloudflare
 ---
 
 This page shows how to configure [Certbot](https://certbot.eff.org/) with a domain that uses Couldflare DNS. This allows us to issue wildcard certificates.
