@@ -18,6 +18,14 @@ path tracer is written in C++ and uses OpenMP for parallelization. Some notable 
 
 ![Path tracer example output](/assets/images/path_tracer_example.jpg)
 
+## AR Sudoku solver
+
+This application is a simple prototype that uses computer vision to detect a sudoku in the camera
+feed of an Android phone, solves the sudoku and then superimposes the solution over the image.
+The code is available on [GitHub](https://github.com/JBamberger/sudoku).
+
+![Example output of the Sudoku solver](/assets/images/sudoku_example.jpg)
+
 ## Android app to display class substitutions
 
 I developed this app during the time at [highschool][fhg-website]. The school had a website which lists current substitutions and changes to the course schedule. At the time, this website was very inconvenient for mobile devices, therefore I decided to develop an application which can display this plan more readable.
