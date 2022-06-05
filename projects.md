@@ -3,7 +3,20 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-Here is a short list of things I worked on which are available for usage:
+
+## Path tracer in C++
+
+The [application][pt-github] is based on the results of the university course _Global Illumination Methods_. The
+path tracer is written in C++ and uses OpenMP for parallelization. Some notable features are:
+
+- Bounding-box-based hit-tests
+- An Octree for the scene
+- Bounding volume hierarchies (BVH) for the models in the scene
+- Lambertian, metal-like and dielectric material
+- Basic texturing support
+- A simple obj reader
+
+![Path tracer example output](/assets/images/path_tracer_example.jpg)
 
 ## Android app to display class substitutions
 
@@ -33,3 +46,5 @@ The application ended up as a commercial product of [OriginStamp.com][os-com], a
 [os-com]:               https://originstamp.com
 [os-app-playstore]:     https://play.google.com/store/apps/details?id=kn.uni.isg.evidenceapp
 [os-client-lib]:        https://github.com/JBamberger/originstamp-android-api
+
+[pt-github]:            https://github.com/JBamberger/global-illumination
