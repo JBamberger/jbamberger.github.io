@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Website with Flask, Gunicorn and Nginx on CentOS"
+title:  "Website with Flask, Gunicorn and nginx on CentOS"
 date:   2018-01-22 13:35:00 +0200
 categories: Development
 tags: Python Flask Gunicorn Nginx
@@ -23,7 +23,7 @@ sudo yum -y install python36u-pip
 sudo yum -y install python36u-devel
 ```
 
-Create a virtual environment and install dependencies as well as gunicorn:
+Create a virtual environment and install dependencies as well as Gunicorn:
 
 ```sh
 python3.6 -m venv <appdir-name>
@@ -114,7 +114,7 @@ PrivateTmp=true
 WantedBy=multi-user.target
 ```
 
-Start and enable gunicorn:
+Start and enable Gunicorn:
 
 ```sh
 sudo systemctl start gunicorn.socket

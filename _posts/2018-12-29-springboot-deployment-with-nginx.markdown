@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Springboot deployment with nginx"
+title:  "Spring Boot deployment with nginx"
 date:   2018-12-29 16:05:00 +0200
 categories: Development
-tags: Java Springboot Gradle Nginx CentOS systemd
+tags: Java Spring Boot Gradle Nginx CentOS systemd
 ---
 
-This post will show how to configure a CentOS server for deploying a Springboot
+This post will show how to configure a CentOS server for deploying a Spring Boot
 application build with Gradle. The networking is passed trough nginx which can
 be used to run multiple servers on the same host or serve static traffic faster.
 
@@ -44,7 +44,7 @@ sudo systemctl restart nginx
 
 First off, we need to define the server information and credentials. Log into
 the server and create a user `deployment`. Assign the `sudo` privilege to the
-newly created user. Then generate a ssh key `deployment` locally and add it to
+newly created user. Then generate a SSH key `deployment` locally and add it to
 the allowed keys on the server.
 
 Edit the user `gradle.properties` file at `~/.gradle/gradle.properties` (or
@@ -56,7 +56,7 @@ server_user_deployment_passphrase=<deployment-user-passphrase>
 ```
 
 Now we need to set up Gradle to deploy the application. To do so we add the
-`org.hidetake.ssh` plugin which allows us to perform ssh operations:
+`org.hidetake.ssh` plugin which allows us to perform SSH operations:
 
 ```groovy
 plugins {
@@ -147,8 +147,8 @@ sudo systemctl status <yourapp>
 
 ## Perform a local test
 
-Build the uber jar containing all of the necessary jars, including the app
-server (e.g. tomcat) by invoking
+Build the uber-jar containing all of the necessary jars, including the app
+server (e.g. Tomcat) by invoking
 
 ```sh
 ./gradlew build

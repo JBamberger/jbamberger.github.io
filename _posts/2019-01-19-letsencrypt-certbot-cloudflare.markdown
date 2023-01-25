@@ -6,9 +6,9 @@ categories: Development
 tags: Lets-Encrypt Certbot Cloudflare
 ---
 
-This page shows how to configure [Certbot](https://certbot.eff.org/) with a domain that uses Couldflare DNS. This allows us to issue wildcard certificates.
+This page shows how to configure [Certbot](https://certbot.eff.org/) with a domain that uses Cloudflare DNS. This allows us to issue wildcard certificates.
 
-It assumes, that you've already set up your server and can establish an ssh connection. My server is running CentOS, so you'll have to replace `yum` with the appropriate package manager for your system, for Ubuntu this it is `apt-get`.
+It assumes, that you've already set up your server and can establish an SSH connection. My server is running CentOS, so you'll have to replace `yum` with the appropriate package manager for your system, for Ubuntu this it is `apt-get`.
 
 If you haven't installed Certbot go to <https://certbot.eff.org/> and follow the instructions.
 
@@ -16,7 +16,7 @@ If you haven't installed Certbot go to <https://certbot.eff.org/> and follow the
 
 Next, we'll need to install the Cloudflare DNS plugin for Certbot:
 
-First, we need the Python package manager pip.
+First, we need the Python package manager PIP.
 
 ```bash
 sudo yum install python-pip

@@ -6,21 +6,21 @@ categories: Development
 tags: Android Gradle Artifactory
 ---
 
-This page shows how to integrate gradle builds of android libraries with a private maven repository hosted on artifactory.
+This page shows how to integrate Gradle builds of Android libraries with a private Maven repository hosted on Artifactory.
 
 You'll need:
 
-1. The library identifier:  
-    `<your-group-id>:<your-artifact-id>:<your-version-number>`  
+1. The library identifier:
+    `<your-group-id>:<your-artifact-id>:<your-version-number>`
     example: `com.example.test:mylibrary:1.0.0`
-2. An Artifactory server with a repository:  
-    `https://<your-server>/<your-base-path>/<your-repository>`  
+2. An Artifactory server with a repository:
+    `https://<your-server>/<your-base-path>/<your-repository>`
     example: `https://example.com/artifactory/gradle-release-local`
 3. A user account with sufficient access rights consisting of `<your-username>` and `<your-password>`.
 
 ## Producer and Consumer
 
-Both, producer and consumer must create a properties file containing the artifactory username and password.
+Both, producer and consumer must create a properties file containing the Artifactory username and password.
 The file should be created as `~/.gradle/gradle.properties`.
 The content should be:
 
@@ -127,7 +127,7 @@ artifactory {
 }
 ```
 
-Deploying the artifact is only a matter of invoking `gradlew assembleRelease artifactoryPublish`
+Deploying the artifact is only a matter of invoking `gradlew assembleRelease artifactoryPublish`.
 
 ## Consumer side
 
@@ -147,7 +147,7 @@ repositories {
 }
 ```
 
-Add the library with its given maven coordinates to the `dependencies` section:
+Add the library with its given Maven coordinates to the `dependencies` section:
 
 ```groovy
 dependencies {
