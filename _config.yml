@@ -29,7 +29,7 @@ timezone: Europe/Berlin
 encoding: utf-8
 
 header_pages:
-  - projects.md
+  # - projects.md
   - categories.html
   - tags.html
   - about.md
